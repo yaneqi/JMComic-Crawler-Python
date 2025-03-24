@@ -1,0 +1,8 @@
+name: CI
+on: [push]  # 触发事件：代码推送时运行
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Hello World
+      run: echo "Hello GitHub Actions!"
